@@ -1,0 +1,73 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "When steady state reaches in the tank then?",
+      "answers": {
+        "a": "The output velocity is always a constant",
+        "b": "The input velocity is always a constant",
+        "c": "The height of the fluid in the tank remains constant",
+        "d": "All of these"
+      },
+      "explanations": {
+        "a": "Explanation 1 ",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "An arrangement as in your experiment is at steady state, what will happen if you increase the output flow rate?",
+      "answers": {
+        "a": "1The fluid level in tank decreases continuously",
+        "b": "The fluid level in tank decreases and then becomes constant",
+        "c": "The fluid level in tank increases continuously",
+        "d": "The fluid level in tank increases and then becomes constant"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The use of a thermocouple is to",
+      "answers": {
+        "a": "Measure absolute temperature",
+        "b": "Measure velocity at a particular point",
+        "c": "Measure temperature difference",
+        "d": "Measure average velocity at a particular plane"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+      {
+      "question": "At steady tank and coil arrangement as in the experiment, if the coil inlet temperature is increased then the tank outlet temperature:",
+      "answers": {
+        "a": "Increases continuously",
+        "b": "Increases and then becomes constant above the previous steady state value",
+        "c": "Decreases continuously below the previous steady state value",
+        "d": "Decreases and then becomes a constant below the previous steady state value"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

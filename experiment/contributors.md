@@ -1,19 +1,9 @@
-## Introduction
-
-<div align="center">
-<img src="experiment/images/iitkgp.png" width="10%">
-</div>
-
-<b>Discipline | <b> Chemical Engineering
-:--|:--|
-<b> Lab | <b> **Chemical Process Dynamics Laboratory**
-<b> Experiment|     <b> **Stirred tank heater**
 
 
-### About the Experiment 
+## People
 
-<!--Fill a brief description of this experiment here-->
 
+#### Subject Matter Experts
 <b>Name of Developer | <b> **Dr. Amiya Kumar Jana**
 :--|:--|
 <b> Institute | <b>  **Indian Institute of Technology Kharagpur**
@@ -22,8 +12,9 @@
 <b>Webpage| <b> [http://www.iitkgp.ac.in/department/CH/faculty/ch-akjana](http://www.iitkgp.ac.in/department/CH/faculty/ch-akjana)
 
 
-### Contributors List
 
+
+#### Contributors List
 SrNo | Name | VLabs Developer or Integration Engineer | Designation | Department| Institute
 :--|:--|:--|:--|:--|:--|
 1 | **Ramesh Ghosh** |Integration Engineer | Senior Project Assistant | Department of Mechanical Engineering | IIT Kharagpur | 
