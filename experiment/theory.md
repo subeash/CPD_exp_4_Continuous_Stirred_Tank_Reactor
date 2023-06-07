@@ -106,9 +106,11 @@ From equation (1), we obtain<br>
 $$\frac{d(VC_B)}{dt}=F_{B0}C_{B0}-FC_B-(-r_A)V $$ <br>
 
 $$\frac{dC_B}{dt}=(F_{B0}C_{B0}-FC_B)V-(-r_A)$$ <br>
+
 Substituting Equation (7) into equation (12), then we get<br>
+
 $$\frac{dC_B}{dt}=\frac{(F_{B0}C_{B0}-FC_B)}{V}-3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp(\frac{1698}{T})})$$
-                            </p>
+                            
 ### For component C (Product)
 Flow rate of component C into the reactor = 0<br>
 
