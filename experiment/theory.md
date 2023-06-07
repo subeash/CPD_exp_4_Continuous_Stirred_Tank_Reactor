@@ -113,26 +113,60 @@ $$\frac{dC_B}{dt}=\frac{(F_{B0}C_{B0}-FC_B)}{V}-3918exp[5472.7(\frac{1}{273}-\fr
                             
 ### For component C (Product)
 Flow rate of component C into the reactor = 0<br>
+Flow rate of component C out of the reactor = FCC<br>
+Rate of generation of component C by chemical reaction = (rc)V<br>
 
-                                Flow rate of component C out of the reactor = FCC<br>
+$$ Rate\ of \ accumulation\ of \ component \ C \ within \ the \ reactor =\frac{d(VC_C)}{dt} $$
 
-                                Rate of generation of component C by chemical reaction = (rc)V<br>
+Here,<br>
+-(-rA)=(rc)<br>
+From equation (1), we obtain<br>
+$$\frac{d(VC_C)}{dt}=-FC_C+(-r_A)V$$ <br>
 
-                                Rate of accumulation of component C within the reactor =`(d(VC_C))/dt`<br>Here,<br>
+$$\frac{dC_C}{dt}=\frac{(-FC_C)}{V}+(-r_A)$$ <br>
+Substituting Equation (7) into equation (13), then we get <br/>
 
-                                -(-rA)=(rc)<br>
-
-                                From equation (1), we obtain<br>`(d(VC_C))/dt=-FC_C+(-r_A)V`<br>`(dC_C)/dt=((-FC_C))/V+(-r_A)`<br>Substituting Equation (7) into equation (13), then we get
-                                <br/>`(dC_C)/dt=((-FC_C))/V+39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`
+$$\frac{dC_C}{dt}=\frac{(-FC_C)}{V}+39178exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D)}{exp(\frac{1698}{T})})$$
 
 ### Energy Balance Equation
 The energy balance equation is
-[["Rate of energy"],["accumulation"]]=[["Rate of energy input"],["into the system"]]-[["Rate of energy"],["out of the system"]]+[["Rate of energy added by"],["exothermic chemical reaction"]]`
+
+$$			
+\begin{bmatrix}
+Rate \ of\ energy\\\\
+accumulation
+\end{bmatrix} =
+\begin{bmatrix}
+Rate\ of\ energy\ input\\\\
+into\ the\ system
+\end{bmatrix} -
+\begin{bmatrix}
+Rate\ of\ energy\\\\
+out \ of \ the \ system
+\end{bmatrix} +
+\begin{bmatrix}
+Rate\ of\ energy\ added by\\\\
+exothermic\ chemical\ reaction
+\end{bmatrix} 
+$$
                             </p>
 ### Reactor analysis
-Rate of energy input into the reactor = `F_rhoC_pT_0`<br><br>Rate of energy out of the reactor =`F_rhoC_pT+UA(T-T_j)`<br><br>Rate of energy added by the exothermic reaction =`(-DeltaH)V(-r_A)`<br>Rate of accumulation of energy = `(d(V_rhoC_PT))/dt`<br>`(-DeltaH)`is the heat of reaction.<br>
+$$Rate\ of\ energy \ input\ into\ the\ reactor = F_\rho C_pT_0$$ <br>
 
-                                From equation (20), we obtain<br>`(d(V_rhoC_PT))/dt=F_rhoC_pT_0-UA(T-T_j)+(-DeltaH)V(-r_A)`<br>Simplifying this equation, we get<br>`(dT)/dt=F/V(T_0-T)-(DeltaH(-r_A))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`<br>Substituting Equation (7) into equation (22), then we get<br>`(dT)/dt=F/V(T_0-T)-((DeltaH)39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T)))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`</p>
+$$Rate\ of\ energy\ out\ of\ the\ reactor =F_\rho C_pT+UA(T-T_j)$$ <br>
+
+$$Rate\ of\ energy\ added\ by\ the\ exothermic\ reaction = (-\Delta H)V(-r_A)$$ <br>
+
+$$Rate\ of\ accumulation\ of\ energy = \frac{d(V_\rho C_PT))}{dt} $$ <br>
+
+ $$(-\Delta H) \ is \ the\ heat\ of\ reaction.$$<br>
+
+From equation (20), we obtain<br>
+`(d(V_rhoC_PT))/dt=F_rhoC_pT_0-UA(T-T_j)+(-DeltaH)V(-r_A)`<br>
+Simplifying this equation, we get<br>
+`(dT)/dt=F/V(T_0-T)-(DeltaH(-r_A))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`<br>
+Substituting Equation (7) into equation (22), then we get<br>
+`(dT)/dt=F/V(T_0-T)-((DeltaH)39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T)))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`</p>
                             
 ### Jacket Analysis
 Rate of energy input into the jacket =`F_jrho_jC_pjT_j0`<br>Rate of energy out of the reactor = `F_jrho_jC_pjT_j-UA(T-T_j)`<br>Rate of accumulation of energy =`(d(V_jrho_jC_pjT_j))/dt`<br>Vj is the volume of the jacket.
