@@ -1,21 +1,114 @@
 ## Inroduction 
 
-**Heat**
-
-Heat can be defined as the transfer of energy across the boundary of a system due to a temperature difference between the system and its surroundings. Heat should not be confused with internal energy which is essentially all the energy of a system that is associated with its atoms and molecules - when viewed from a reference frame at rest with respect to the object. It's important to understand the fact that internal energy can undergo a change even when there is no transfer of heat. Consider an adiabatic vessel with a movable lid-pulling the lid, in such a manner that the volume of vessel expands, results in cooling and consequent decrease of internal energy even though there was no transfer of heat from surroundings.
+Chemical kinetics and reactor design are at the heart of producing almost all industrial chemicals.The selection of a reaction system that operates in the safest and most efficient manner can be the key to the success or failure of a chemical plant. The reaction occurred in a reactor is exothermic or endothermic.The reactor is generally assembled with a jacket or coil in order to maintain the reaction temperature in the reactor. If heat is evolved due to exothermic reaction, a coolant stream is required to pass through the jacket or coil to remove the extra heat. On the other hand, if endothermic reaction occurs in the system, the flow of heating medium is passing through jacket or coil for maintain the reaction temperature. A reactor operates at a constants temperature, then that is called as the isothermal reactor. If any exothermic or endothermic reactions are involved in the reactor, the temperature of the reactions mixture varies with time and we need to develop the energy balance equation for this non-isothermal reactor. In case of adiabatic reactor no interchange of heat between the system and surroundings. So no heating and cooling medium are required. A chemical reactor is a vessel where reactions are carried out purposefully to produce products from reactants by means of one or more chemical reactions. A chemical reactor may be characterized by the mode operation according to the flow condition. A classification can be made in this respect as follows:
+1. Batch reactor
+2. Semi batch reactor
+3. Flow reactors
+     a. Tubular reactor
+     b. Continuous stirred tank reactor
            
 
-## 1. Modes of Heat Transfer
-Transfer of heat can take place through three different mechanisms
-### 1.1 Conduction
+## Activation Energy
 
-Conduction can be understood as a process in which energy transfer occurs from a more energetic body to a less energetic process primarily due to collisions between them. Conduction takes only when there is a temperature difference between two parts of the conducting medium. Let's explore the dependence of the conduction rate with change in temperature. Consider a thin plate of thickness `Delta x` and cross sectional area A. Let the temperature of thickness at one face be and at the opposite face be . It has been experimentally found that heat flow will take place between the two faces. If the time interval is `Delta T` and the heat flow `Delta Q`, then it has been found that `(Delta Q)/(Delta T)=k(Delta T)/(Delta x)`
- ### 1.2 Convection               
-Unlike conduction, convection involves bulk transport of fluids from one place to another which consequently results in exchange of heat from the hotter to colder substance. In brief, the heat energy transferred due to movement of a heated substance is convection. Land and sea breezes are a good example of the phenomenon of convection. During the night, the land cools faster due to poor conductivity of land. This leads to differential heating of the air above land and water. The air above seas is hotter. Since hot air is lighter, it rises up resulting in cool breezes from the land blowing in above seas and the hot air being transported to land resulting in warm night breezes. The reverse process is repeated during the day. This entire phenomenon is based on convection currents and is an example of natural convection. Natural convection is essentially due to the difference in the densities of the fluids which results in their subsequent motion. When fluids are made to move due to some external forces such as a fan or a blower as the case maybe, then it's called forced convection.
- 
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/>
-				
-<p>Figure 1.1 Convection Currents</p>
+Activation energy is defined as the minimum energy required starting a chemical reaction. The activation energy of a reaction is denoted by E, and unit is kilojoules per mole. Activation energy can be thought of as the height of the potential barrier (sometimes called the energy barrier) separating two minima of potential energy (of the reactants and products of a reaction). For a chemical reaction to proceed at a reasonable rate, there should exit an appreciable number of molecules with energy equal to or greater than the activation energy.
+
+ ### Reaction Rate Constant             
+For many reaction, and particularly elementary reaction, the rate expression can be written as a product of a temperature-dependent term and composition dependent term.<br><b>`ri=fi(temperature).f2(composition)`</b><br>For such reactions the temperature-dependent term, the reaction rate constant, has been found in practically all cases to be well represented by Arrhenius's law<br>$$k=alpha exp(-E/(RT))$$<br>At the same concentration, but at two different temperatures, Arrhenius's law indicates that<br>$$ln (k_2/k_1)=E/R(1/T_1-1/T_2)$$<br>Where, Frequency factor or pre-exponential factor
+                                <br>E = Activation energy
+                                <br>R = Universal gas constant.</p><br>
+
                            
- ### 1.3 Radiation    
- Radiation heat exchange between two bodies at different temperatures always results in a net transfer of heat energy from the body at a higher temperature to the other at a lower temperature.Heat transfer by radiation is important role in many heating and cooling operation and equipment such as operation of a furnace ,thermal cracking, various types of kilns etc.Radiation heat loss from a process equipment becomes significant when its temperature is considerably different from that of the ambient. Therefore process of radiation is necessary for thermal calculation in a varity of physical situation. Thermal radiation is the emission of electromagnetic waves from all matter that has a temperature greater than absolute zero.Thermal radiation incident on a body tends to increase its temperature .Its depending upon the nature of the material constituting the body and its surface characteristics ,the incident radiation may be absorbed,reflected, or transmitted, partly or fully.
+ ### Heat Of Reaction    
+Heat of reaction is the amount of heat that must be added or removed during a chemical reaction in order to keep all of the substances present at the same temperature. If the pressure in the vessel containing the reacting system is kept at constant value, the measured heat of reaction also represents the change in the thermodynamic quantity called enthalpy, or heat content, accompanying the process- i.e., the difference between the enthalpy of the substances present at the start of the reaction. Thus, the heat of reaction determined at constant pressure is also designated the enthalpy of reaction, represented by the symbol ΔH
+ . If the heat of reaction is positive, the reaction is said to be endothermic and if negative, exothermic.
+ 
+ ### Continuous Stirred Tank Reactor Theory
+ The continuous stirred tank reactor or back mix reactor is a very common processing unit in chemical and polymer industry. Its names suggest, it is a reactor in which the contents are well stirred and uniform throughout. The CSTR is normally run at steady state, and is usually operated so as a to be quite well mixed. The CSTR is generally modeled as having no spatial variations in concentrations, temperature, or reaction rate throughout the vessel. Since the temperature and concentration are identical everywhere within the reaction vessel, they are the same at the exits point as they are elsewhere in the tank.
+ 
+### Steady State
+A situation in which all the state variables remain constant despite parallel processes trying to change them, is referred to as the steady state.
+### Time Constant
+When we talk about time constant, it's essential to take into account the context in which we are talking about it. In our case, time constant can be defined as 63% of the time that will be taken for a body to reach steady state.
+
+Setup
+
+The following second-order, exothermic chemical reaction takes place in the reactor:
+
+<img src="images/convection.jpg"  style="width:500px;height:400px;"/> <br>
+Reactant A and B is continuously fed to the reactor with a volumetric flow rate FA0 and FB0, a molar concentration CA , and CB temperature T0. The contents are uniformly mixed by motorized agitator. An exit stream, which contains a mixture of reactant A and B and product C and D, is withdrawn from the reactor continuously with a volumetric flow rate F. The prescribed reaction is exothermic and it is necessary to add a cooling jacket to keep it temperature below 315K. A coolant stream volumetric flow rate Fj and inlet temperature Tj0 continuously takes out the heat to maintain the described reaction temperature.
+### Mathematical modeling of continuous stirred tank reactor
+#### Assumptions
+
+- The mixture density (p) and heat capacity (Cp) are assumed constant.
+- The reacting mixture is assumed to be well mixed.
+- The heat losses from the process to the atmosphere are negligible.
+- The overall heat transfer coefficient is assumed constant.
+#### Inputs to the system are
+- Initial concentration of component A =CA0
+- Initial concentration of component B =CB0
+- Flow rate of A =FA0
+- Flow rate of B =FB0
+- Jacket flow rate =Fj
+- Feed temperature =T0
+- Jacket temperature =Tj0
+
+### Component continuity equation
+The component balance equation is
+$$[["Rate of accumulation"],["within the system"]]=[["Rate of flow"],["into the system"]]-[["Rate of flow"],["out of the system"]]+[["Rate of generation by chemical"],["reaction within the system"]]$$
+### For component A (Reactant)
+Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
+ Rate of generation of component A by chemical reaction = -(-rA)V<br>
+
+                                Rate of accumulation of component A within the reactor =`d((VC_A))/dt`<br>
+                                Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>`d((VC_A))/dt=F_(A0)C_(A0)-FC_A-(-r_A)V`<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-(-r_A)`<br>For the given second order reaction, the rate of disappearance is<br>`(-r_A)=k(C_(A)C_(B)-(C_(C)C_(D))/K_C)`<br>`k=39178exp[5472.7(1/273-1/T)]`<br>`K_c=exp(1698/T)`<br>Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
+### For component B (Reactant)
+Flow rate of component B into the reactor =FB0CB0<br>
+
+                                Flow rate of component B out of the reactor =FCB<br>
+
+                                Rate of generation of component B by chemical reaction = (-rB)V<br>
+
+                                Rate of accumulation of component A within the reactor =`(d(VC_B))/dt`<br>Here,(-rB) is the rate of disappearance of species B and (-rA)=(-rB)<br>
+
+                                From equation (1), we obtain<br>`(d(VC_B))/dt=F_(B0)C_(B0)-FC_B-(-r_A)V`<br>`(dC_B)/dt=(F_(B0)C_(B0)-FC_B)V-(-r_A)`<br>Substituting Equation (7) into equation (12), then we get<br>`(dC_B)/dt=((F_(B0)C_(B0)-FC_B))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`
+                            </p>
+### For component C (Product)
+Flow rate of component C into the reactor = 0<br>
+
+                                Flow rate of component C out of the reactor = FCC<br>
+
+                                Rate of generation of component C by chemical reaction = (rc)V<br>
+
+                                Rate of accumulation of component C within the reactor =`(d(VC_C))/dt`<br>Here,<br>
+
+                                -(-rA)=(rc)<br>
+
+                                From equation (1), we obtain<br>`(d(VC_C))/dt=-FC_C+(-r_A)V`<br>`(dC_C)/dt=((-FC_C))/V+(-r_A)`<br>Substituting Equation (7) into equation (13), then we get
+                                <br/>`(dC_C)/dt=((-FC_C))/V+39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`
+
+### Energy Balance Equation
+The energy balance equation is
+[["Rate of energy"],["accumulation"]]=[["Rate of energy input"],["into the system"]]-[["Rate of energy"],["out of the system"]]+[["Rate of energy added by"],["exothermic chemical reaction"]]`
+                            </p>
+### Reactor analysis
+Rate of energy input into the reactor = `F_rhoC_pT_0`<br><br>Rate of energy out of the reactor =`F_rhoC_pT+UA(T-T_j)`<br><br>Rate of energy added by the exothermic reaction =`(-DeltaH)V(-r_A)`<br>Rate of accumulation of energy = `(d(V_rhoC_PT))/dt`<br>`(-DeltaH)`is the heat of reaction.<br>
+
+                                From equation (20), we obtain<br>`(d(V_rhoC_PT))/dt=F_rhoC_pT_0-UA(T-T_j)+(-DeltaH)V(-r_A)`<br>Simplifying this equation, we get<br>`(dT)/dt=F/V(T_0-T)-(DeltaH(-r_A))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`<br>Substituting Equation (7) into equation (22), then we get<br>`(dT)/dt=F/V(T_0-T)-((DeltaH)39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T)))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`</p>
+                            
+### Jacket Analysis
+Rate of energy input into the jacket =`F_jrho_jC_pjT_j0`<br>Rate of energy out of the reactor = `F_jrho_jC_pjT_j-UA(T-T_j)`<br>Rate of accumulation of energy =`(d(V_jrho_jC_pjT_j))/dt`<br>Vj is the volume of the jacket.
+
+                                <br>From energy balance equation, we get<br>`(d(V_jrho_jC_pjT_j))/dt=F_jrho_jC_pjT_j0-F_jrho_jC_pjT_j+UA(T-T_j)`<br>`(dT_j)/dt=F_j/V_j(T_j0-T_j)+(UA(T-T_j))/(V_jrho_jC_pj)`
+                            </p>
+### Input Parameter
+ 9.	Initial concentration of component B = CB0<br>
+
+                                10.	Flow rate of A = FA0<br>
+
+                                11.	Flow rate of B = FB0<br>
+
+                                12.	Jacket flow rate = Fj<br>
+
+                                13.	Feed temperature =T0<br>
+
+                                14.	Jacket temperature = Tj0</p>
