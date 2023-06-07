@@ -86,7 +86,14 @@ $$d \frac {(VC_A)}{dt}=F_{A0}C_{A0}-FC_A-(-r_A)V$$ <br>
 
 $$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-(-r_A)$$ <br>
 
-For the given second order reaction, the rate of disappearance is<br>`(-r_A)=k(C_(A)C_(B)-(C_(C)C_(D))/K_C)`<br>`k=39178exp[5472.7(1/273-1/T)]`<br>`K_c=exp(1698/T)`<br>Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
+For the given second order reaction, the rate of disappearance is<br>
+$$(-r_A)=k(C_A C_B-\frac{C_C C_D}{K_C})$$<br>
+$$k=39178exp[5472.7(\frac{1}{273}-\frac{1}{T})]$$ <br>
+$$K_c=exp(\frac{1698}{T})$$<br>
+Substituting Equation (7) and (8) into equation (6), then we get<br>
+$$(-r_A)=3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp( \frac{1698}{T})})$$ <br>
+Substituting Equation (9) into equation (5), then we get<br>
+$$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{(C_C C_D)}{exp(\frac{1698}{T})})$$</p>
 ### For component B (Reactant)
 Flow rate of component B into the reactor =FB0CB0<br>
 
