@@ -76,10 +76,15 @@ $$
 
 ### For component A (Reactant)
 Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
- Rate of generation of component A by chemical reaction = -(-rA)V<br>
+Rate of generation of component A by chemical reaction = -(-rA)V<br>
+Rate of accumulation of component A within the reactor = $$d \frac{(VC_A))}{dt}<br>
+Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>
 
-                                Rate of accumulation of component A within the reactor =`d((VC_A))/dt`<br>
-                                Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>`d((VC_A))/dt=F_(A0)C_(A0)-FC_A-(-r_A)V`<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-(-r_A)`<br>For the given second order reaction, the rate of disappearance is<br>`(-r_A)=k(C_(A)C_(B)-(C_(C)C_(D))/K_C)`<br>`k=39178exp[5472.7(1/273-1/T)]`<br>`K_c=exp(1698/T)`<br>Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
+$$d \frac {(VC_A)}{dt}=F_{A0}C_{A0}-FC_A-(-r_A)V$$ <br>
+
+$$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-(-r_A)$$ <br>
+
+For the given second order reaction, the rate of disappearance is<br>`(-r_A)=k(C_(A)C_(B)-(C_(C)C_(D))/K_C)`<br>`k=39178exp[5472.7(1/273-1/T)]`<br>`K_c=exp(1698/T)`<br>Substituting Equation (7) and (8) into equation (6), then we get<br>`(-r_A)=3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`<br>Substituting Equation (9) into equation (5), then we get<br>`(dC_A)/dt=((F_(A0)C_(A0)-FC_A))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`</p>
 ### For component B (Reactant)
 Flow rate of component B into the reactor =FB0CB0<br>
 
