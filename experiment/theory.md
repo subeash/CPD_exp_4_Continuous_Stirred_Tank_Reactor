@@ -162,11 +162,13 @@ $$Rate\ of\ accumulation\ of\ energy = \frac{d(V_\rho C_PT))}{dt} $$ <br>
  $$(-\Delta H) \ is \ the\ heat\ of\ reaction.$$<br>
 
 From equation (20), we obtain<br>
-`(d(V_rhoC_PT))/dt=F_rhoC_pT_0-UA(T-T_j)+(-DeltaH)V(-r_A)`<br>
+
+$$\frac{d(V_\rho C_PT)}{dt}=F_\rho C_pT_0-UA(T-T_j)+(-\Delta H)V(-r_A)$$ <br>
 Simplifying this equation, we get<br>
-`(dT)/dt=F/V(T_0-T)-(DeltaH(-r_A))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`<br>
+$$\frac{dT}{dt}=\frac{F}{V}(T_0-T)-\frac{\Delta H(-r_A)}{\rho C_P}-\frac{UA(T-T_j)}{V_\rho C_P}$$ <br>
 Substituting Equation (7) into equation (22), then we get<br>
-`(dT)/dt=F/V(T_0-T)-((DeltaH)39178exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T)))/(rhoC_P)-(UA(T-T_j))/(V_rhoC_P)`</p>
+
+$$\frac{dT}{dt}=\frac{F}{V}(T_0-T)-\frac{(\Delta H)39178exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp(\frac{1698}{T})})}{\rho C_P}-\frac{UA(T-T_j)}{V_\rho C_P}$$ </p>
                             
 ### Jacket Analysis
 Rate of energy input into the jacket =`F_jrho_jC_pjT_j0`<br>Rate of energy out of the reactor = `F_jrho_jC_pjT_j-UA(T-T_j)`<br>Rate of accumulation of energy =`(d(V_jrho_jC_pjT_j))/dt`<br>Vj is the volume of the jacket.
