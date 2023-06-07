@@ -53,8 +53,27 @@ Reactant A and B is continuously fed to the reactor with a volumetric flow rate 
 - Jacket temperature =Tj0
 
 ### Component continuity equation
-The component balance equation is
-$$[["Rate of accumulation"],["within the system"]]=[["Rate of flow"],["into the system"]]-[["Rate of flow"],["out of the system"]]+[["Rate of generation by chemical"],["reaction within the system"]]$$
+The component balance equation is <br>
+
+$$			
+\begin{bmatrix}
+Rate\ of\ accumulation\\\\
+within\ the\ system
+\end{bmatrix} =
+\begin{bmatrix}
+Rate\ of\ flow\\\\
+into\ the\ system
+\end{bmatrix} -
+\begin{bmatrix}
+Rate\ of\ flow\\\\
+out \ of \ the \ system
+\end{bmatrix} +
+\begin{bmatrix}
+Rate \ of \ generation\ by\ chemical\\\\
+reaction\ within\ the\ system
+\end{bmatrix} 
+$$
+
 ### For component A (Reactant)
 Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
  Rate of generation of component A by chemical reaction = -(-rA)V<br>
