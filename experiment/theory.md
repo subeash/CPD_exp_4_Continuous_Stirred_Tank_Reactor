@@ -185,14 +185,10 @@ Vj is the volume of the jacket.
  $$\frac{dT_j}{dt}=\frac{F_j}{V_j} (T_j0-T_j)+\frac{UA(T-T_j)}{V_j \rho_jC_pj}$$
                            
 ### Input Parameter
- 9.	Initial concentration of component B = CB0<br>
-
-                                10.	Flow rate of A = FA0<br>
-
-                                11.	Flow rate of B = FB0<br>
-
-                                12.	Jacket flow rate = Fj<br>
-
-                                13.	Feed temperature =T0<br>
-
-                                14.	Jacket temperature = Tj0</p>
+8. Initial concentration of component A = CA0
+9. Initial concentration of component B = CB0
+10. Flow rate of A = FA0
+11. Flow rate of B = FB0
+12. Jacket flow rate = Fj
+13. Feed temperature =T0
+14. Jacket temperature = Tj0
