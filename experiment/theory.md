@@ -95,15 +95,19 @@ $$(-r_A)=3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp(
 Substituting Equation (9) into equation (5), then we get<br>
 $$\frac{dC_A}{dt}=\frac{(F_{A0}C_{A0}-FC_A)}{V}-3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{(C_C C_D)}{exp(\frac{1698}{T})})$$</p>
 ### For component B (Reactant)
-Flow rate of component B into the reactor =FB0CB0<br>
+Flow rate of component B into the reactor =FB0CB0 <br>
+Flow rate of component B out of the reactor =FCB <br>
+Rate of generation of component B by chemical reaction = (-rB)V <br>
 
-                                Flow rate of component B out of the reactor =FCB<br>
+$$ Rate\ of\ accumulation\ of\ component\ A\ within\ the\ reactor\ =\ d \frac{(VC_B))}{dt}$$<br>
 
-                                Rate of generation of component B by chemical reaction = (-rB)V<br>
+Here,(-rB) is the rate of disappearance of species B and (-rA)=(-rB)<br>
+From equation (1), we obtain<br>
+$$\frac{d(VC_B)}{dt}=F_{B0}C_{B0}-FC_B-(-r_A)V $$ <br>
 
-                                Rate of accumulation of component A within the reactor =`(d(VC_B))/dt`<br>Here,(-rB) is the rate of disappearance of species B and (-rA)=(-rB)<br>
-
-                                From equation (1), we obtain<br>`(d(VC_B))/dt=F_(B0)C_(B0)-FC_B-(-r_A)V`<br>`(dC_B)/dt=(F_(B0)C_(B0)-FC_B)V-(-r_A)`<br>Substituting Equation (7) into equation (12), then we get<br>`(dC_B)/dt=((F_(B0)C_(B0)-FC_B))/V-3918exp[5472.7(1/273-1/T)]-(C_(A)C_(B)-(C_(C)C_(D))/exp(1698/T))`
+$$\frac{dC_B}{dt}=(F_{B0}C_{B0}-FC_B)V-(-r_A)$$ <br>
+Substituting Equation (7) into equation (12), then we get<br>
+$$\frac{dC_B}{dt}=\frac{(F_{B0}C_{B0}-FC_B)}{V}-3918exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp(\frac{1698}{T})})$$
                             </p>
 ### For component C (Product)
 Flow rate of component C into the reactor = 0<br>
