@@ -171,10 +171,19 @@ Substituting Equation (7) into equation (22), then we get<br>
 $$\frac{dT}{dt}=\frac{F}{V}(T_0-T)-\frac{(\Delta H)39178exp[5472.7(\frac{1}{273}-\frac{1}{T})]-(C_A C_B-\frac{C_C C_D}{exp(\frac{1698}{T})})}{\rho C_P}-\frac{UA(T-T_j)}{V_\rho C_P}$$ </p>
                             
 ### Jacket Analysis
-Rate of energy input into the jacket =`F_jrho_jC_pjT_j0`<br>Rate of energy out of the reactor = `F_jrho_jC_pjT_j-UA(T-T_j)`<br>Rate of accumulation of energy =`(d(V_jrho_jC_pjT_j))/dt`<br>Vj is the volume of the jacket.
+$$Rate\ of\ energy\ input\ into\ the\ jacket\ =\ F_j \rho_jC_pjT_j0 $$<br>
 
-                                <br>From energy balance equation, we get<br>`(d(V_jrho_jC_pjT_j))/dt=F_jrho_jC_pjT_j0-F_jrho_jC_pjT_j+UA(T-T_j)`<br>`(dT_j)/dt=F_j/V_j(T_j0-T_j)+(UA(T-T_j))/(V_jrho_jC_pj)`
-                            </p>
+$$Rate\ of\ energy\ out\ of\ the\ reactor\ =\ F_j \rho_jC_pjT_j-UA(T-T_j) $$<br>
+
+$$Rate\ of\ accumulation\ of\ energy\ =\ \frac{d(V_j \rho_jC_pjT_j)}{dt}$$<br>
+
+Vj is the volume of the jacket.
+<br>From energy balance equation, we get<br>
+
+ $$\frac{d(V_j \rho_jC_pjT_j)}{dt}=F_jrho_jC_pjT_j0-F_j \rho_jC_pjT_j+UA(T-T_j) $$<br>
+ 
+ $$\frac{dT_j}{dt}=\frac{F_j}{V_j} (T_j0-T_j)+\frac{UA(T-T_j)}{V_j \rho_jC_pj}$$
+                           
 ### Input Parameter
  9.	Initial concentration of component B = CB0<br>
 
