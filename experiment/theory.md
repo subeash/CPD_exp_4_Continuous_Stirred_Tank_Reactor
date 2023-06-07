@@ -77,7 +77,9 @@ $$
 ### For component A (Reactant)
 Flow rate of component A into the reactor = FA0<br>Flow rate of component Aout of the reactor = FCA<br>
 Rate of generation of component A by chemical reaction = -(-rA)V<br>
-Rate of accumulation of component A within the reactor = $$d \frac{(VC_A))}{dt}<br>
+
+$$ Rate\ of\ accumulation\ of\ component\ A\ within\ the\ reactor\ =\ d \frac{(VC_A))}{dt}$$<br>
+
 Here, (-rA) is the rate of disappearance of species A. V is the volume of the reactor. From equation (1), we obtain<br>
 
 $$d \frac {(VC_A)}{dt}=F_{A0}C_{A0}-FC_A-(-r_A)V$$ <br>
