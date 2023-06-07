@@ -30,11 +30,11 @@ A situation in which all the state variables remain constant despite parallel pr
 ### Time Constant
 When we talk about time constant, it's essential to take into account the context in which we are talking about it. In our case, time constant can be defined as 63% of the time that will be taken for a body to reach steady state.
 
-Setup
+#### Setup
 
 The following second-order, exothermic chemical reaction takes place in the reactor:
 
-<img src="images/convection.jpg"  style="width:500px;height:400px;"/> <br>
+<img src="images/5.JPG"  style="width:500px;height:400px;"/> <br>
 Reactant A and B is continuously fed to the reactor with a volumetric flow rate FA0 and FB0, a molar concentration CA , and CB temperature T0. The contents are uniformly mixed by motorized agitator. An exit stream, which contains a mixture of reactant A and B and product C and D, is withdrawn from the reactor continuously with a volumetric flow rate F. The prescribed reaction is exothermic and it is necessary to add a cooling jacket to keep it temperature below 315K. A coolant stream volumetric flow rate Fj and inlet temperature Tj0 continuously takes out the heat to maintain the described reaction temperature.
 ### Mathematical modeling of continuous stirred tank reactor
 #### Assumptions
