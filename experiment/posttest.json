@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": " An arrangement as in your experiment is at steady state, what will happen if you decrease the input flow rate?",
+      "question": "In a continuous flow stirred tank reactor, the composition of the exit stream",
       "answers": {
-        "a": "The fluid level in tank decreases continuously",
-        "b": "The fluid level in tank increases continuously",
-        "c": "The fluid level in tank decreases and then becomes constant",
-        "d": "The fluid level in tank increases and then becomes constant"
+        "a": "Is same as that in the reactor",
+        "b": " Is different than that in the reactor",
+        "c": "Depend upon the flow rate of inlet stream",
+        "d": "None of these"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "An arrangement as in your experiment is at steady state, what will happen if you increase the input first and then increase the output flow rate but by the same amount?",
+      "question": "Which of the following is the most suitable for isothermal operation",
       "answers": {
-        "a": "The height first increases and then decreases and reaches to it's original value",
-        "b": "The height first increases and then becomes constant but is more than the previous steady state's value",
-        "c": "The height first decreases and then increases and reaches to it's original value",
-        "d": "The height first decreases and then becomes constant but is less than the previous steady states value"
+        "a": "Batch reactor",
+        "b": "Back mix reactor",
+        "c": "Plug flow reactor",
+        "d": "Fixed bed reactor"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -32,16 +32,16 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": " The steady state value of the height obtained as done practically is different from that calculated from equations with certain assumptions because",
+      "question": "Heat of reaction is positive, the reaction is said to be",
       "answers": {
-        "a": "The value of inflow is not exactly equal to the value of the outflow",
-        "b": "There are fluctuations in the value of the inflow",
-        "c": "There is a problem of meniscus of the fluid which leads to misjudgement of the value obtained",
-        "d": "ALL of the above"
+        "a": "Exothermic",
+        "b": "Endothermic",
+        "c": "Both a and b",
+        "d": "None of these"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -53,11 +53,11 @@
       "difficulty": "beginner"
     },
        {
-      "question": " The work of a rotameter is to measure the",
+      "question": "Heat of reaction is negetive, the reaction is said to be",
       "answers": {
-        "a": "Volumetric flow rate",
-        "b": "Mass flow rate",
-        "c": "Velocity",
+        "a": "Exothermic",
+        "b": "Endothermic",
+        "c": "Both a and b",
         "d": "None of these"
       },
       "explanations": {
@@ -66,41 +66,7 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-     {
-      "question": " At steady tank and coil arrangement as in the experiment, if the tank inlet temperature is increased then the coil outlet temperature:",
-      "answers": {
-        "a": "Increases continuously above the previous steady state value",
-        "b": "Increases and then becomes constant above the previous steady state valuee",
-        "c": "Decreases continuously below the previous steady state value",
-        "d": "Decreases and then becomes a constant below the previous steady state value"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-     {
-      "question": "At steady tank and coil arrangement as in the experiment, if the coil inlet temperature is decreased then the tank outlet temperature:",
-      "answers": {
-        "a": "Increases continuously above the previous steady state value",
-        "b": "Increases and then becomes constant above the previous steady state valuee",
-        "c": "Decreases continuously below the previous steady state value",
-        "d": "Decreases and then becomes a constant below the previous steady state value"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
